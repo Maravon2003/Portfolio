@@ -9,10 +9,11 @@
     }
     h1 {
       font-size: 70px;
+      color: #fae6ff;
     }
     img {
       margin: 40px 0px 0px 0px;
-      border: 7px solid white;
+      border: 7px blue;
       border-radius: 20px;
     }
     ul {
@@ -38,3 +39,37 @@
         display: block;
       }
     }
+img {
+    border-radius: 50%;
+}
+p {
+    font-family: Serif;
+    font-size: 20px;
+}
+body{
+    background-color: #fae6ff;
+}
+<head>
+<style>
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: #80bfff;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+</style>
+</head>
+

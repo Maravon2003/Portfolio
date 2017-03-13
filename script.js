@@ -8,3 +8,6 @@ $(document).ready(function(){
     
     
 });
+$("#submit-name").click(function() {
+$("p").append( $("#name").val() );
+});
